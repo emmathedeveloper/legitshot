@@ -9,9 +9,7 @@ export default function BackgroundImage(
 ) {
   return (
     <div className='h-full w-full relative wrapper flex'>
-
       {children}
-
     </div>
   )
 }
