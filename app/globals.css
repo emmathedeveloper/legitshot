@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+  height: 100%;
+  width: 100%;
+  --purple: rgb(233 213 255);
+  --main: white;
+}
+*::selection{
+  background-color: var(--purple);
+}
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-purple-600
+}
+.wrapper{
+  background-image: linear-gradient(to right , var(--main) 40% , var(--main) 10% , rgba(255 , 255 , 255 , .7) 50%) , url("https://res.cloudinary.com/dfipatvsi/image/upload/v1689326816/image00015_r3d1gv.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 500px) {
+  .lucide {
+    height: 15px;
+    width: 15px;
+  }
+}

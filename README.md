@@ -1,1 +1,1 @@
-## LEGITSHOT# legitshot
+# LEGITSHOT
